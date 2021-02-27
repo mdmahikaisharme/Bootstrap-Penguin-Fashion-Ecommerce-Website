@@ -1,0 +1,390 @@
+/*""""""""""""""""""""""""""""""""""""""""*/
+/*"""""""""""""""  All     """""""""""""""*/
+/*""""""""""""""""""""""""""""""""""""""""*/
+img {
+    width: 100%;
+    object-fit: contain;
+}
+/*""""""""""""""""""""""""""""""""""""""""*/
+/*"""""""""""""""  Header  """""""""""""""*/
+/*""""""""""""""""""""""""""""""""""""""""*/
+.navbar {
+    background-color: #fffbf0;
+}
+nav img {
+    width: 15em;
+}
+/*============================================================*/
+/*============================================================*/
+/*============================================================*/
+#sectModel {
+    padding: 2em 0 4em 0;
+    background-color: #fffbf0;
+}
+#modelText {
+    width: 30em;
+}
+#modelText h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #363958;
+}
+#modelText span {
+    display: block;
+    text-transform: uppercase;
+    color: #fabe4c;
+}
+#modelText p {
+    width: 75%;
+    margin: .5em 0 1.25em 0;
+}
+.btn img {
+    width: 2em;
+}
+#modelImg {
+    width: 25em;
+}
+/*""""""""""""""""""""""""""""""""""""""""*/
+/*"""""""""""""""  Man Woman """""""""""""*/
+/*""""""""""""""""""""""""""""""""""""""""*/
+.manwoman {
+    padding: 2em 0 4em 0;
+}
+.manwoman h2 {
+    margin-left: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.manwoman .card {
+    width: 17.5em;
+    margin: 1em;
+    box-shadow: .2em .2em 10px rgba(0, 0, 0, .2);
+}
+.manwoman .card-img-top {
+    width: 16em;
+    height: 16em;
+    padding: 2em;
+    margin: .75em auto 0 auto;
+    object-fit: contain;
+    background-color: rgb(231, 226, 226);
+}
+.manwoman .card-body {
+    width: 18em;
+    margin: 0 auto;
+}
+.manwoman .card-title {
+    margin: 0;
+}
+.manwoman .card .btn img {
+    width: 2em !; 
+    height: 2em;
+}
+/*""""""""""""""""""""""""""""""""""""""""*/
+/*"""""""""""""""  Service   """""""""""""*/
+/*""""""""""""""""""""""""""""""""""""""""*/
+#sectService {
+    padding: 2em 0;
+}
+#serviceCard .card {
+    margin: 1em;
+    width: 30em;
+    box-shadow: .2em .2em 10px rgba(0, 0, 0, .2);
+}
+#serviceCard .card-img {
+    width: 5em;
+    margin: 0 0 0 2em;
+}
+#serviceCard .card-body {
+    width: 17.5em;
+}
+#serviceCard .card-title,
+#serviceCard .card-text {
+    width: 22em;
+    margin: 0;
+}
+#serviceImg {
+    width: 25em;
+}
+/*""""""""""""""""""""""""""""""""""""""""*/
+/*"""""""""""""""  Contact """""""""""""""*/
+/*""""""""""""""""""""""""""""""""""""""""*/
+#sectContact {
+    width: 100%;
+    margin: 10em auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sectContact img {
+    width: 30em;
+}
+#sectContact p {
+    margin: .5em;
+    font-weight: 700;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+#sectContact div {
+    border-radius: 25px;
+    box-shadow: .2em .2em 10px rgba(0, 0, 0, .3);
+}
+#sectContact input {
+    width: 20em;
+    padding: .5em 1em;
+    font-size: 1.1em;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+#sectContact a {
+    margin-left: .1em;
+    padding: .4em 1.5em;
+    border-radius: 10px;
+    font-size: 1.1em;
+    box-shadow: .2em .2em 10px rgba(0, 0, 0, .05);
+    background:  green;
+    border-radius: 25px;
+    border: .2em solid green;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all ease .2s;
+}
+/*""""""""""""""""""""""""""""""""""""""""*/
+/*"""""""""""""""  Footer  """""""""""""""*/
+/*""""""""""""""""""""""""""""""""""""""""*/
+footer {
+    width: 100%;
+    height: 10em;
+    margin: 10em auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffbf0;
+}
+footer p:nth-child(1) {
+    margin: .5em 0 .25em 0;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+#copy {
+    margin: 0;
+    font-size: .9em;
+}
+#footerLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footerLink a {
+    margin: 0 .25em;
+}
+#footerLink a:hover {
+    transform: scale(1.2);
+}
+#footerLink img {
+    width: 2em;
+}
+/*""""""""""""""""""""""""""""""""""""""""*/
+/*"""""""""""""""  Media   """""""""""""""*/
+/*""""""""""""""""""""""""""""""""""""""""*/
+@media(max-width: 991px) {
+    #modelText {
+        width: 25em;
+    }
+    #modelText h1 {
+        font-size: 2.5rem;
+    }
+    #modelText p {
+        width: 100%;
+    }
+    .btn img {
+        width: 1.5em;
+    }
+    #modelImg {
+        width: 20em;
+    }
+    .sectService {
+        display: flex;
+        flex-direction: column;
+    }
+    #serviceCard {
+        order: 2;
+        margin-top: 3em;
+    }
+}
+@media(max-width: 767px) {
+    .sectModel {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width: 500px) {
+    #serviceCard .card {
+        width: 17.5em;
+        height: 17.5em;
+    }
+    #serviceCard .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #serviceCard .card-img {
+        width: 8em;
+        margin: 0;
+        margin-top: 2em;
+    }
+    #serviceCard .card-body {
+        margin: 0;
+        width: 17em;
+    }
+    #serviceCard .card-title,
+    #serviceCard .card-text {
+        width: 100%;
+    }
+    #serviceImg {
+        width: 20em;
+    }
+    #sectContact img {
+        width: 20em;
+    }
+    #sectContact input {
+        width: 12.5em;
+    }
+}
+@media(max-width: 460px) {
+    nav img {
+        width: 10em;
+    }
+    #modelText {
+        width: 18em;
+    }
+    #modelText h1 {
+        font-size: 2rem;
+    }
+    #modelImg {
+        margin-top: 2em;
+        width: 15em;
+    }
+    #serviceImg,
+    #sectContact img {
+        width: 15em;
+    }
+    #sectContact p {
+        font-size: 2rem;
+    }
+    #sectContact input {
+        width: 10em;
+        font-size: 1rem;
+    }
+    #sectContact a {
+        padding: .35em .5em;
+        font-size: 1rem;
+    }
+
+}
+@media(max-width: 380px) {
+    footer p:nth-child(1) {
+        font-size: 1.25rem;
+    }
+    #copy {
+        width: 17em;
+        text-align: center;
+    }
+}
+@media(max-width: 380px) {
+    nav img {
+        width: 7.5em;
+    }
+    #modelText {
+        width: 15em;
+    }
+    #modelText h1 {
+        font-size: 1.5rem;
+    }
+    #modelText p {
+        font-size: .9rem;
+    }
+    #modelImg {
+        margin-top: 2em;
+        width: 12.5em;
+    }
+    .manwoman h2 {
+        margin: 0 auto;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    
+    }
+    .manwoman .card {
+        width: 14em;
+        margin: 1em;
+        box-shadow: .2em .2em 10px rgba(0, 0, 0, .2);
+    }
+    .manwoman .card-img-top {
+        width: 13em;
+        height: 13em;
+        padding: 2em;
+        margin: .5em auto 0 auto;
+        object-fit: contain;
+        background-color: rgb(231, 226, 226);
+    }
+    .manwoman .card-body {
+        width: 14em;
+        margin: 0 auto;
+    }
+    .manwoman .card-title {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+    .manwoman .card-text {
+        margin: 0;
+        font-size: .9rem;
+    }
+    .manwoman .card .btn img {
+        width: 1.5em; 
+        height: 1.5em;
+    }
+    #serviceCard .card {
+        width: 14em;
+        height: 14em;
+    }
+    #serviceCard .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #serviceCard .card-img {
+        width: 6em;
+        margin: 0;
+        margin-top: 2em;
+    }
+    #serviceCard .card-body {
+        margin: 0;
+        width: 14em;
+    }
+    #serviceCard .card-title{
+        font-size: 1.2rem;
+    }
+    #serviceCard .card-text {
+        font-size: .9rem;
+    }
+    #serviceImg,
+    #sectContact img {
+        width: 12.5em;
+    }
+    #sectContact p {
+        font-size: 1.5rem;
+    }
+    #sectContact input {
+        width: 10em;
+        font-size: .9rem;
+    }
+    #sectContact a {
+        padding: .35em .5em;
+        font-size: .9rem;
+    }
+}
